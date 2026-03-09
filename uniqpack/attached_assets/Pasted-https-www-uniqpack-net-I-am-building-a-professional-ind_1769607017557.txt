@@ -1,0 +1,152 @@
+https://www.uniqpack.net/
+I am building a professional industrial website for a packaging machinery company named "Uniq Pack".
+
+I have uploaded a CSV file that contains complete product data for all machines, including:
+- Machine Name
+- Category / Type
+- Technical Specifications
+- Features
+- Optional capacity or model variations
+
+IMPORTANT:
+You MUST read and use the CSV data as the single source of truth.
+Do not invent machine names or specifications.
+
+GOALS:
+1. Build a modern, premium, high-tech industrial website.
+2. The website must look significantly better than a typical machinery supplier website.
+3. Design style: Navy Blue + White color theme, clean typography, professional layout, subtle animations.
+4. The website must feel trustworthy, export-ready, and suitable for B2B clients.
+
+PAGES TO CREATE:
+
+1) HOME PAGE
+- Hero section with a strong headline like:
+  “Advanced Packaging Machinery for Modern Manufacturing”
+- Sub-headline explaining Uniq Pack in 1–2 lines
+- Primary CTA button: "Get a Quote"
+- Secondary CTA: "View Machines"
+- Highlight sections:
+  - Industries Served
+  - Why Choose Uniq Pack
+  - Quick Product Categories (from CSV)
+- Sticky navigation bar
+- Floating WhatsApp contact button (bottom right)
+
+2) PRODUCT CATALOG PAGE (MOST IMPORTANT)
+- Read ALL products from the uploaded CSV
+- Display machines in a clean grid or list
+- Each product card must show:
+  - Machine Name
+  - Category
+  - Short summary
+  - “View Details” button
+
+3) PRODUCT DETAIL PAGE (AUTO-GENERATED FOR EACH MACHINE)
+For each machine from the CSV:
+- Machine Name as page title
+- High-quality image placeholder
+- Clear "Technical Specifications" table generated directly from CSV fields
+- Features list
+- Applications / Use cases (if available)
+- CTA section:
+  “Request a Quote for This Machine”
+- WhatsApp quick contact button
+
+4) ABOUT US PAGE
+- Company overview of Uniq Pack as a packaging machinery manufacturer
+- Focus on:
+  - Engineering quality
+  - Reliability
+  - Customer-centric approach
+  - Industrial expertise
+- Professional, confident tone
+
+5) CONTACT PAGE
+- Inquiry form with fields:
+  Name, Company Name, Email, Phone, Product Interested In, Message
+- WhatsApp contact button
+- Professional layout
+
+FUNCTIONAL REQUIREMENTS:
+- Fully responsive (mobile, tablet, desktop)
+- Sticky header navigation
+- Clean animations (not flashy)
+- Easy to extend later
+- SEO-friendly structure
+
+DESIGN EXPECTATIONS:
+- Premium industrial brand look
+- Large headings, proper spacing
+- No childish colors
+- No generic startup design
+- This is a manufacturing/export company website
+
+IMAGES:
+- Use placeholders for now
+- Design should support high-quality product images later
+
+FINAL NOTE:
+If any section looks too simple, improve it automatically to match a premium B2B industrial brand.
+
+"Fix the console error by ensuring all keys in the product catalog are unique. Then, clear the current placeholder products and replace them with the following exact data from the Uniq Pack original site. Use a professional Navy Blue (#001f3f) and White theme with a 3-column grid."
+
+
+Based on your goal to recreate the exact products from the original Uniq Pack site into your Rocket.new prototype, you need to fix the console error shown in your screenshot and then inject the correct data.
+
+The error "Encountered two children with the same key, /product-catalog" means the AI has accidentally duplicated a code identifier. We will fix that and add your exact products in one go.
+
+Step 1: Fix the Error and Set the Layout
+Copy and paste this command into the Rocket.new chat (where you see "Ask me..."):
+
+"Fix the console error by ensuring all keys in the product catalog are unique. Then, clear the current placeholder products and replace them with the following exact data from the Uniq Pack original site. Use a professional Navy Blue (#001f3f) and White theme with a 3-column grid."
+
+Step 2: The Exact Product Data
+Paste this detailed list immediately after the command above:
+
+Machine 1: One Edge Biscuit Packaging Machine
+
+Capacity: 6000 to 9000 Pouch/Hour
+
+Specs: Fully Automatic, PLC Controlled, 220V, Center Seal.
+
+Image: Use the IndiaMart link for Biscuit Machine.
+
+Machine 2: Automatic Soap Packaging Machine
+
+Capacity: 4000 to 6000 Pouch/Hour
+
+Specs: Horizontal Flow Wrap, Automatic, Mild Steel / SS Body.
+
+Image: https://5.imimg.com/data5/WR/UI/EQ/ANDROID-46111231/prod-20200505-0907491227268149-jpg-250x250.jpg
+
+Machine 3: 4 Servo Cookies Packaging Machine
+
+Capacity: 4000 Piece/Hour
+
+Specs: 4-Servo Motor control, Touch screen HMI, Polished Finish.
+
+Image: https://5.imimg.com/data5/ANDROID/Default/2023/8/332562599/FN/CP/NA/46111231/product-jpeg-250x250.jpg
+
+Machine 4: PLC Model Bread Packing Machine
+
+Capacity: 1000 to 1500 Piece/Hour
+
+Specs: Single pack type, SS Body, PLC controlled.
+
+Machine 5: Automatic Napkin Packaging Machine
+
+Capacity: 8000 Piece/Hour
+
+Specs: 1 HP Power, 200kg weight, High-speed output.
+
+Machine 6: Incense Stick Packaging Machine
+
+Capacity: 3000 Pouch/Hour
+
+Specs: Automatic, Plastic Wrapper, 2 HP Power.
+
+Step 3: Add the "Product Detail" Instructions
+To ensure each product has its own page as requested, add this final sentence to your prompt:
+
+"For each of these products, create a dedicated 'Product Detail' page that includes an interactive 'Technical Specifications' table using the data provided and a prominent 'Request Best Price' inquiry form."
